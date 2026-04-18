@@ -1,0 +1,41 @@
+import {
+  Code2,
+  Terminal,
+  Database,
+  GraduationCap,
+  ArrowRight,
+  Mail,
+  ExternalLink,
+  MessageCircle,
+  Palette,
+  Package,
+  Moon,
+  Sun,
+  Menu,
+  X,
+  Download,
+  Filter,
+  ChevronRight,
+} from "lucide-react";
+
+export const icons = {
+  Code2,
+  Terminal,
+  Database,
+  GraduationCap,
+  ArrowRight,
+  Mail,
+  ExternalLink,
+  MessageCircle,
+  Palette,
+  Package,
+  Moon,
+  Sun,
+  Menu,
+  X,
+  Download,
+  Filter,
+  ChevronRight,
+};
+
+export type IconName = keyof typeof icons;
